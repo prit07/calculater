@@ -1,0 +1,90 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.myapp
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#clc-app
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.myapp img 
+{
+    width: 70%;
+    animation:2s fadeInLeft alternate;
+}
+.myapp h1 
+{
+    animation: 2s fadeIn infinite;
+}
+
+.clc-btn
+{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-top: 14%;
+}
+
+.clc-btn button 
+{
+    width: 300px;
+    height: auto;
+
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 5%;
+}
+table{
+    width: 30% !important;
+    padding: 20px;
+    border-collapse: all;
+    margin-top: auto;
+    background: black;
+    
+}
+tr{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+td{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    vertical-align: center;
+}
+#result{
+    color: white;
+    background-color: black;
+    height: 25px;
+    width: 95%;
+}
+.btn{
+    width: 80px;
+    height: auto;
+    color: white;
+    background-color: black;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+
+.clc{
+    margin-top: 80px;
+}
